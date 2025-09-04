@@ -1,0 +1,64 @@
+.slide-container{
+	width:500px;
+	height:400px;
+	float: right;
+	
+	overflow: hidden;
+	text-align:center;
+}
+
+.image-container{
+	width:2000px;
+	height:400px;
+	position:relative;
+	transition:left 2s;
+	-webkit-transition:left	2s;
+	-moz-transition: left 2s;
+	-o-tansition: left 2s;
+}
+
+.slider-image{
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+
+.button-container{
+	top: -20px;
+	position: relative;
+}
+
+.slider-button{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background-color:white;
+}
+
+#slider-image-1:target ~ .image-container{
+	left: 0px;
+}
+
+#slider-image-2:target ~ .image-container{
+	left: -500px;
+}
+
+#slider-image-3:target ~ .image-container{
+	left: -1000px;
+}
+
+#slider-image-4:target ~ .image-container{
+	left: -1500px;
+}
+
+.container { 
+    clear: both; /* container won't collapse, next element outside container won't float up */ 
+  } 
+  .leftHeader { 
+    float: left; /* Header 1 goes to left of page */ 
+  } 
+  .rightHeader { 
+    float: right; /* Header 2 goes to right of page */ 
+  } 
+
