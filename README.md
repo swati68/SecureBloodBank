@@ -1,4 +1,4 @@
-# SecureBloodBank 🩸🔐
+# Secure Blood Bank 🩸🔐
 
 A secure **Blood and Plasma Donation Management Website** built with **HTML, PHP & MySQL**, designed to protect against the **OWASP Top 10 vulnerabilities**.  
 
